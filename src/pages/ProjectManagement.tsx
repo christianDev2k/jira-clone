@@ -1,5 +1,7 @@
+import { ProjectManagementTemplate } from 'components';
+
 const ProjectManagement = () => {
-    return <div>ProjectManagement</div>;
+    return <ProjectManagementTemplate />;
 };
 
 export default ProjectManagement;

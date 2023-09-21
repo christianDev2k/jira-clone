@@ -1,5 +1,8 @@
+import { useRoutes } from 'react-router-dom';
+import router from 'router';
+
 function App() {
-    return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
+    return <div className='max-w-screen-2xl mx-auto'>{useRoutes(router)}</div>;
 }
 
 export default App;

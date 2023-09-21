@@ -1,5 +1,7 @@
+import { UserManagementTemplate } from 'components';
+
 const UserManagement = () => {
-    return <div>UserManagement</div>;
+    return <UserManagementTemplate />;
 };
 
 export default UserManagement;

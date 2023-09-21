@@ -1,5 +1,7 @@
+import { SignUpTemplate } from 'components';
+
 const SignUp = () => {
-    return <div>SignUp</div>;
+    return <SignUpTemplate />;
 };
 
 export default SignUp;

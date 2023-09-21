@@ -1,5 +1,7 @@
+import { CyberBoardTemplate } from 'components';
+
 const CyberBoard = () => {
-    return <div>CyberBoard</div>;
+    return <CyberBoardTemplate />;
 };
 
 export default CyberBoard;
