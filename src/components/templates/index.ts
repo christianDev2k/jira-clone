@@ -5,4 +5,4 @@ export { default as ProjectDetailTemplate } from './ProjectDetail';
 export { default as HandleTaskTemplate } from './HandleTask';
 export { default as CreateProjectTemplate } from './CreateProject';
 export { default as UserManagementTemplate } from './UserManagement';
-export { default as CyberBoardTemplate } from './CyberBoard';
+export { default as JiraBoardTemplate } from './JiraBoard';

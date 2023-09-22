@@ -1,5 +1,5 @@
 const PATH = {
-    cyberBoard: '/',
+    jiraBoard: '/',
     signUp: '/sign-up',
     login: '/login',
     projectManagement: '/project-management',

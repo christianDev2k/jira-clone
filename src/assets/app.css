@@ -13,7 +13,9 @@
 
     --primary-color: var(--blue-600);
     --primary-bg-color: var(--blue-50);
-    --primary-border-color: var(--blue-400);
+    --primary-border-color: var(--blue-200);
+    --primary-bg-content: #f3f4f3;
+    --text-sidebar-color: var(--blue-950);
     --text-primary-color: #222;
     --title-primary-color: #666;
     --black-color: #000;
@@ -24,6 +26,7 @@
     /* Font size  */
     --fz-10: 10px;
     --fz-12: 12px;
+    --fz-13: 13px;
     --fz-14: 14px;
     --fz-16: 16px;
     --fz-18: 18px;
@@ -46,6 +49,7 @@
     --radius-3: 3px;
     --radius-5: 5px;
     --radius-6: 6px;
+    --radius-10: 10px;
 
     /* Margin  */
     --m-2: 2px;
@@ -56,6 +60,7 @@
     --m-20: 20px;
     --m-24: 24px;
     --m-28: 28px;
+    --m-30: 30px;
     --m-32: 32px;
     --m-36: 36px;
     --m-40: 40px;
@@ -69,6 +74,7 @@
     --p-20: 20px;
     --p-24: 24px;
     --p-28: 28px;
+    --p-30: 30px;
     --p-32: 32px;
     --p-36: 36px;
     --p-40: 40px;

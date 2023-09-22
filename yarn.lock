@@ -1465,7 +1465,7 @@
   resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.9.0.tgz#9033238b41c4cbe1e961eccb3f79e2c588328cf6"
   integrity sha512-bV63itrKBC0zdT27qYm6SDZHlkXwFL1xMBuhkn+X7l0+IIhNaH5wuuvZKp6eKhCD4KFhujhfhCT1YxXW6esUIA==
 
-"@types/hoist-non-react-statics@^3.3.1":
+"@types/hoist-non-react-statics@*", "@types/hoist-non-react-statics@^3.3.1":
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#dc1e9ded53375d37603c479cc12c693b0878aa2a"
   integrity sha512-YIQtIg4PKr7ZyqNPZObpxfHsHEmuB8dXCxd6qVcGuQVDK2bpsF7bYNnBJ4Nn7giuACZg+WewExgrtAJ3XnA4Xw==
@@ -1513,6 +1513,15 @@
   version "7.5.2"
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.2.tgz#31f6eec1ed7ec23f4f05608d3a2d381df041f564"
   integrity sha512-7aqorHYgdNO4DM36stTiGO3DvKoex9TQRwsJU6vMaFGyqpBA1MNZkz+PG3gaNUPpTAOYhT1WR7M1JyA3fbS9Cw==
+
+"@types/styled-components@^5.1.27":
+  version "5.1.27"
+  resolved "https://registry.yarnpkg.com/@types/styled-components/-/styled-components-5.1.27.tgz#1915eedba0d52f26ba5a383fccb7fe50e2e71106"
+  integrity sha512-oY9c1SdztRRF0QDQdwXEenfAjGN4WGUkaMpx5hvdTbYYqw01qoY2GrHi+kAR6SVofynzD6KbGoF5ITP0zh5pvg==
+  dependencies:
+    "@types/hoist-non-react-statics" "*"
+    "@types/react" "*"
+    csstype "^3.0.2"
 
 "@types/stylis@^4.0.2":
   version "4.2.0"

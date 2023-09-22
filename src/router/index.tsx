@@ -1,6 +1,6 @@
 import { AuthLayout, MainLayout } from 'components';
 import { PATH } from 'constant';
-import { CyberBoard, Login, SignUp } from 'pages';
+import { CreateProject, CyberBoard, Login, ProjectManagement, SignUp, UserManagement } from 'pages';
 import { RouteObject } from 'react-router-dom';
 
 const router: RouteObject[] = [
@@ -23,6 +23,18 @@ const router: RouteObject[] = [
             {
                 index: true,
                 element: <CyberBoard />,
+            },
+            {
+                path: PATH.projectManagement,
+                element: <ProjectManagement />,
+            },
+            {
+                path: PATH.createProject,
+                element: <CreateProject />,
+            },
+            {
+                path: PATH.userManagement,
+                element: <UserManagement />,
             },
         ],
     },
