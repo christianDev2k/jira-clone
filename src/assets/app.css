@@ -15,9 +15,8 @@
     --primary-bg-color: var(--blue-50);
     --primary-border-color: var(--blue-200);
     --primary-bg-content: #f3f4f3;
+    --primary-text-color: #222;
     --text-sidebar-color: var(--blue-950);
-    --text-primary-color: #222;
-    --title-primary-color: #666;
     --black-color: #000;
     --white-color: #fff;
     --bd-input-color: #ccc;
@@ -91,7 +90,7 @@
 
 body {
     font-family: Montserrat, Arial, sans-serif;
-    color: var(--text-color);
+    color: var(--primary-text-color);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
